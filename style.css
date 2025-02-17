@@ -1,0 +1,98 @@
+*
+{
+margin: 0;  
+padding: 0;
+}
+
+#gameHeading
+{
+    color: #000000;
+    background: linear-gradient(rgb(137, 131, 131),rgb(79, 95, 118));
+    margin-top: 1.5rem;
+    height: 2.5rem;
+   
+}
+body
+{
+    /* background-color: #548687; */
+    /* background: linear-gradient(rgb(135, 121, 121),gray); */
+    background: linear-gradient(rgb(137, 130, 130),rgb(129, 177, 244));
+    text-align: center;
+}
+
+.container
+{
+    height: 70vh;           /*    70% viewport height   */
+    display: flex;            /* background: green; */
+    justify-content: center;
+    align-items: center;
+}
+
+.game
+{
+    height: 60vmin; /*vmin = 1% smmaler dimention of vh, 60%*/
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    /* background-color: #ffffc7; */
+    /* background: linear-gradient(#00b3e4, #26548c); */
+    /* background: linear-gradient(#14abd4, #2865af); */
+    /* background: linear-gradient(#acb268, #b3b127db); */
+    background: linear-gradient(rgba(78, 216, 205, 0.918),rgb(255, 255, 255));
+}
+
+#reset-btn
+{
+ padding: 1rem;   
+ font-size: 1.25rem;
+ background-color: #191913;
+ color: #fff;
+ border-radius: 1rem;
+ border: none;
+}
+
+
+#new-btn
+{
+    padding: 1rem;   
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg
+{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.msg-container
+{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide
+{
+    display: none;
+}
